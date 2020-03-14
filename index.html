@@ -1,0 +1,1520 @@
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&display=swap&subset=cyrillic" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- MAIN SCREEN -->
+    <div class="main">
+        <div class="container-lg">
+            <div class="main__wrapper">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="main__title">
+                            Найдите или <a href="#">продайте</a> свою недвижимость
+                        </h1>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="main__filter">
+                            <div class="main__filter-select">
+                                <div class="select-block selected" data-select="apartment">
+                                    <span class="select-block-icon">
+                                        <svg width="39" height="39" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g stroke-width="1" fill-rule="evenodd">
+                                                <g id="Icons--1" transform="translate(-314.000000, -104.000000)">
+                                                    <path d="M314.4,104 C315.266667,104 316.133333,104 317,104 C317,108.866667 317,113.733333 317,118.6 C317,118.820914 317.179086,119 317.4,119 L317.6,119 C317.820914,119 318,118.820914 318,118.6 L318,104.4 C318,104.179086 318.179086,104 318.4,104 C320.6,104 322.8,104 325,104 C325,107.866667 325,111.733333 325,115.6 C325,115.820914 325.179086,116 325.4,116 L329.6,116 C329.820914,116 330,116.179086 330,116.4 L330,119.6 C330,119.820914 329.820914,120 329.6,120 L314.4,120 C314.179086,120 314,119.820914 314,119.6 L314,104.4 C314,104.179086 314.179086,104 314.4,104 Z M315,115 L315,117 L316,117 L316,115 L315,115 Z M319,115 L319,117 L320,117 L320,115 L319,115 Z M321,117 L321,119 L322,119 L322,117 L321,117 Z M323,115 L323,117 L324,117 L324,115 L323,115 Z M315,112 L315,114 L316,114 L316,112 L315,112 Z M319,112 L319,114 L320,114 L320,112 L319,112 Z M321,114 L321,116 L322,116 L322,114 L321,114 Z M323,112 L323,114 L324,114 L324,112 L323,112 Z M315,109 L315,111 L316,111 L316,109 L315,109 Z M319,109 L319,111 L320,111 L320,109 L319,109 Z M321,111 L321,113 L322,113 L322,111 L321,111 Z M323,109 L323,111 L324,111 L324,109 L323,109 Z M315,106 L315,108 L316,108 L316,106 L315,106 Z M319,106 L319,108 L320,108 L320,106 L319,106 Z M321,108 L321,110 L322,110 L322,108 L321,108 Z M323,106 L323,108 L324,108 L324,106 L323,106 Z M326.4,113 L328.6,113 C328.820914,113 329,113.179086 329,113.4 L329,114.6 C329,114.820914 328.820914,115 328.6,115 L326.4,115 C326.179086,115 326,114.820914 326,114.6 L326,113.4 C326,113.179086 326.179086,113 326.4,113 Z M326.4,110 L328.6,110 C328.820914,110 329,110.179086 329,110.4 L329,111.6 C329,111.820914 328.820914,112 328.6,112 L326.4,112 C326.179086,112 326,111.820914 326,111.6 L326,110.4 C326,110.179086 326.179086,110 326.4,110 Z M326.4,107 L328.6,107 C328.820914,107 329,107.179086 329,107.4 L329,108.6 C329,108.820914 328.820914,109 328.6,109 L326.4,109 C326.179086,109 326,108.820914 326,108.6 L326,107.4 C326,107.179086 326.179086,107 326.4,107 Z" id="appartments" transform="translate(322.000000, 112.000000) scale(-1, 1) translate(-322.000000, -112.000000) "></path>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p>
+                                        Квартиры
+                                    </p>
+                                </div>
+
+                                <div class="select-block" data-select="house">
+                                    <span class="select-block-icon">
+                                        <svg width="39px" height="39px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <g id="Icons--2" transform="translate(-269.000000, -104.000000)">
+                                                <path d="M269,120 L269,119.4 C269,119.179086 269.179086,119 269.4,119 L269.6,119 C269.820914,119 270,118.820914 270,118.6 L270,114.4 C270,114.179086 270.179086,114 270.4,114 L274.6,114 C274.820914,114 275,113.820914 275,113.6 L275,109.4 C275,109.179086 275.179086,109 275.4,109 L279.6,109 C279.820914,109 280,109.179086 280,109.4 L280,118.6 C280,118.820914 280.179086,119 280.4,119 L280.6,119 C280.820914,119 281,118.820914 281,118.6 L281,109.4 C281,109.179086 281.179086,109 281.4,109 L283.6,109 C283.820914,109 284,109.179086 284,109.4 L284,118.6 C284,118.820914 284.179086,119 284.4,119 L284.6,119 C284.820914,119 285,119.179086 285,119.4 L285,119.6 C285,119.820914 284.820914,120 284.6,120 L269,120 Z M273,116 L273,119 L275,119 L275,116 L273,116 Z M276,115 L276,118 L277,118 L277,115 L276,115 Z M271,115 L271,118 L272,118 L272,115 L271,115 Z M276,111 L276,114 L277,114 L277,111 L276,111 Z M278,115 L278,118 L279,118 L279,115 L278,115 Z M282,115 L282,118 L283,118 L283,115 L282,115 Z M278,111 L278,114 L279,114 L279,111 L278,111 Z M282,111 L282,114 L283,114 L283,111 L282,111 Z M273.6,113 L269.323607,113 C269.21315,113 269.123607,112.910457 269.123607,112.8 C269.123607,112.768951 269.130836,112.738328 269.144721,112.710557 L270.834164,109.331672 C270.935799,109.128401 271.143557,109 271.37082,109 L273.6,109 C273.820914,109 274,109.179086 274,109.4 L274,112.6 C274,112.820914 273.820914,113 273.6,113 Z M274.144721,107.710557 L275.834164,104.331672 C275.935799,104.128401 276.143557,104 276.37082,104 L280.676393,104 C280.78685,104 280.876393,104.089543 280.876393,104.2 C280.876393,104.231049 280.869164,104.261672 280.855279,104.289443 L279.165836,107.668328 C279.064201,107.871599 278.856443,108 278.62918,108 L274.323607,108 C274.21315,108 274.123607,107.910457 274.123607,107.8 C274.123607,107.768951 274.130836,107.738328 274.144721,107.710557 Z M280.144721,107.710557 L281.834164,104.331672 C281.935799,104.128401 282.143557,104 282.37082,104 L282.62918,104 C282.856443,104 283.064201,104.128401 283.165836,104.331672 L284.855279,107.710557 C284.904676,107.809353 284.864632,107.929488 284.765836,107.978885 C284.738065,107.992771 284.707442,108 284.676393,108 L280.323607,108 C280.21315,108 280.123607,107.910457 280.123607,107.8 C280.123607,107.768951 280.130836,107.738328 280.144721,107.710557 Z" id="house"></path>
+                                            </g>
+                                        </svg>
+                                    </span>
+                                    <p>
+                                        Дома
+                                    </p>
+                                </div>
+
+                                <div class="select-block" data-select="place">
+                                    <span class="select-block-icon">
+                                        <svg width="39px" height="39px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Icons--3" transform="translate(-290.000000, -104.000000)">
+                        <path d="M300,115.969053 L300,118.6 C300,118.820914 300.179086,119 300.4,119 L306,119 L306,119.6 C306,119.820914 305.820914,120 305.6,120 L290.4,120 C290.179086,120 290,119.820914 290,119.6 L290,119 L298.6,119 C298.820914,119 299,118.820914 299,118.6 L299,115.969053 C297.026844,115.723004 295.5,114.039809 295.5,112 C295.5,110.541928 296.280143,109.266067 297.445782,108.567064 C297.170552,108.295127 297,107.917481 297,107.5 C297,106.808266 297.468234,106.225894 298.105045,106.05254 C298.037257,105.881546 298,105.695124 298,105.5 C298,104.671573 298.671573,104 299.5,104 C300.328427,104 301,104.671573 301,105.5 C301,105.695124 300.962743,105.881546 300.894955,106.05254 C301.531766,106.225894 302,106.808266 302,107.5 C302,107.917481 301.829448,108.295127 301.554218,108.567064 C302.719857,109.266067 303.5,110.541928 303.5,112 C303.5,114.039809 301.973156,115.723004 300,115.969053 Z M290,118 C290,116.666667 290.666667,116 292,116 C294,116 294,118 294,118 C294,118 292.666667,118 290,118 Z M302,118 C302,116.666667 302.666667,116 304,116 C306,116 306,118 306,118 C306,118 304.666667,118 302,118 Z M295,118 C295,117.333333 295.333333,117 296,117 C297,117 297,118 297,118 C297,118 296.333333,118 295,118 Z M292.5,109 C291.119288,109 290,107.880712 290,106.5 C290,105.119288 291.119288,104 292.5,104 C293.880712,104 295,105.119288 295,106.5 C295,107.880712 293.880712,109 292.5,109 Z" id="earth"></path>
+                    </g>
+                </svg>
+                                    </span>
+                                    <p>
+                                        Участки
+                                    </p>
+                                </div>
+
+                                <div class="select-block" data-select="commerce">
+                                    <span class="select-block-icon">
+                                        <svg width="39px" height="39px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <g id="Icons--4" transform="translate(-246.000000, -104.000000)">
+                        <path d="M260,107 L260,106.4 C260,106.179086 259.820914,106 259.6,106 L248.4,106 C248.179086,106 248,105.820914 248,105.6 L248,104.4 C248,104.179086 248.179086,104 248.4,104 L261.6,104 C261.820914,104 262,104.179086 262,104.4 L262,107 L262,119.6 C262,119.820914 261.820914,120 261.6,120 L246.4,120 C246.179086,120 246,119.820914 246,119.6 L246,119.4 C246,119.179086 246.179086,119 246.4,119 L247.6,119 C247.820914,119 248,118.820914 248,118.6 L248,117.4 C248,117.179086 248.179086,117 248.4,117 L249.6,117 C249.820914,117 250,117.179086 250,117.4 L250,118.6 C250,118.820914 250.179086,119 250.4,119 L251.6,119 C251.820914,119 252,118.820914 252,118.6 L252,117.4 C252,117.179086 252.179086,117 252.4,117 L259.6,117 C259.820914,117 260,116.820914 260,116.6 L260,107 Z M256,112 C255.333333,112 255,112.333333 255,113 C255,113.666667 255.333333,114 256,114 C254.666667,114 254,114.666667 254,116 L253,116 C253,114.666667 252.333333,114 251,114 C251.666667,114 252,113.666667 252,113 C252,112.333333 251.666667,112 251,112 C250.333333,112 250,112.333333 250,113 C250,113.666667 250.333333,114 251,114 C249.666667,114 249,114.666667 249,116 L248.4,116 C248.179086,116 248,115.820914 248,115.6 L248,111.4 C248,111.179086 248.179086,111 248.4,111 L251,111 L253,111 L256,111 L258.6,111 C258.820914,111 259,111.179086 259,111.4 L259,115.6 C259,115.820914 258.820914,116 258.6,116 L258,116 C258,114.666667 257.333333,114 256,114 C256.666667,114 257,113.666667 257,113 C257,112.333333 256.666667,112 256,112 Z M246.207293,109.68906 L247.82188,107.26718 C247.93316,107.100261 248.120498,107 248.32111,107 L258.626297,107 C258.736754,107 258.826297,107.089543 258.826297,107.2 C258.826297,107.239485 258.814609,107.278087 258.792707,107.31094 L257.17812,109.73282 C257.06684,109.899739 256.879502,110 256.67889,110 L246.373703,110 C246.263246,110 246.173703,109.910457 246.173703,109.8 C246.173703,109.760515 246.185391,109.721913 246.207293,109.68906 Z" id="commercial"></path>
+                    </g>
+                </svg>
+                                    </span>
+                                    <p>
+                                        Коммерция
+                                    </p>
+                                </div>
+                            </div>
+
+                            <form action="/" class="main__filter-block active" id="apartment">
+                                <div class="fill-wrapper">
+
+                                    <div class="block-fill main__filter-select-mob">
+                                        <span>
+                                            Квартиры
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <p class="select-block select-block-mob" data-select="apartment">
+                                                Квартиры
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="house">
+                                                Дома
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="place">
+                                                Участки
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="commerce">
+                                                Коммерция
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Район
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district1">
+                                                <label for="district1">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district2">
+                                                <label for="district2">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district3">
+                                                <label for="district3">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district4">
+                                                <label for="district4">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district5">
+                                                <label for="district5">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district6">
+                                                <label for="district6">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district7">
+                                                <label for="district7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district8">
+                                                <label for="district8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district9">
+                                                <label for="district9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district10">
+                                                <label for="district10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district11">
+                                                <label for="district11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district12">
+                                                <label for="district12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Улица
+                                        </span>
+
+
+
+                                        <div class="block-fill__list">
+
+                                            <div class="block-fill__list-search">
+                                                <input type="text" placeholder="Введите название">
+                                            </div>
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street1">
+                                                <label for="street1">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street2">
+                                                <label for="street2">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street3">
+                                                <label for="street3">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street4">
+                                                <label for="street4">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street5">
+                                                <label for="street5">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street6">
+                                                <label for="street6">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street7">
+                                                <label for="street7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street8">
+                                                <label for="street8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street9">
+                                                <label for="street9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street10">
+                                                <label for="street10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street11">
+                                                <label for="street11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street12">
+                                                <label for="street12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Комнат
+                                        </span>
+
+                                        <div class="block-fill__list block-fill__list-rooms">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room1">
+                                                <label for="room1">
+                                                    Студия
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room2">
+                                                <label for="room2">
+                                                    Комната
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room3">
+                                                <label for="room3">
+                                                    1
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room4">
+                                                <label for="room4">
+                                                    2
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room5">
+                                                <label for="room5">
+                                                    3
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room6">
+                                                <label for="room6">
+                                                    4
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room7">
+                                                <label for="room7">
+                                                    5+
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="room8">
+                                                <label for="room8">
+                                                    пентхаус
+                                                </label>
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Стоимость
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-cost">
+                                            стоимость
+
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="стоимость от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Площадь
+                                        </span>
+
+                                        <div class="block-fill__list block-fill__list-area">
+
+
+                                            <p>
+                                                общая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="общая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+                                            <p>
+                                                жилая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="жилая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+
+                                            <p>
+                                                кухня
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="кухня от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+
+                                <div class="buttons-wrapper">
+
+                                    <a href="#" class="filter-map">
+                                        <svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+                                            <title>Shape</title>
+                                            <desc>Created with Sketch.</desc>
+                                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="главная-первый-экран-иконки-2" transform="translate(-901.000000, -358.000000)" fill="#EF4136" fill-rule="nonzero">
+                                                    <g id="Форма">
+                                                        <g id="CTA" transform="translate(886.000000, 344.000000)">
+                                                            <g id="button-На-карте">
+                                                                <g id="Group-5">
+                                                                    <path d="M24.10377,16.3404255 C23.1296944,14.8358663 21.6268348,14 19.9848216,14 C18.3149776,14 16.8260334,14.8662614 15.8797885,16.3556231 C14.947459,17.8449848 14.7387285,19.7294833 15.3370893,21.3860182 C15.4205815,21.5835866 15.5040737,21.8115502 15.6293119,22.0243161 L19.3307994,28.5896657 C19.469953,28.8480243 19.7204296,29 19.998737,29 C20.2770443,29 20.5136055,28.8480243 20.6666745,28.5896657 L24.3820773,21.9787234 C24.5073156,21.7355623 24.6186386,21.5227964 24.6882154,21.3100304 C25.2587454,19.668693 25.0360995,17.7993921 24.10377,16.3404255 Z M20,22 C18.3442623,22 17,20.6430518 17,19.0081744 C17,17.373297 18.3442623,16 20,16 C21.6557377,16 23,17.3569482 23,18.9918256 C23,20.626703 21.6557377,22 20,22 Z" id="Shape"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        Показать на карте
+                                    </a>
+
+                                    <button type="submit" class="filter-submit">
+                                        Показать
+                                    </button>
+                                </div>
+                            </form>
+
+
+
+
+                            <form action="/" class="main__filter-block" id="house">
+
+                                <div class="block-fill main__filter-select-mob">
+                                        <span>
+                                            Дома
+                                        </span>
+
+                                    <div class="block-fill__list">
+                                        <p class="select-block select-block-mob" data-select="apartment">
+                                            Квартиры
+                                        </p>
+
+                                        <p class="select-block select-block-mob" data-select="house">
+                                            Дома
+                                        </p>
+
+                                        <p class="select-block select-block-mob" data-select="place">
+                                            Участки
+                                        </p>
+
+                                        <p class="select-block select-block-mob" data-select="commerce">
+                                            Коммерция
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="fill-wrapper">
+                                    <div class="block-fill">
+                                        <span>
+                                            Район
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district1">
+                                                <label for="district1">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district2">
+                                                <label for="district2">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district3">
+                                                <label for="district3">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district4">
+                                                <label for="district4">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district5">
+                                                <label for="district5">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district6">
+                                                <label for="district6">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district7">
+                                                <label for="district7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district8">
+                                                <label for="district8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district9">
+                                                <label for="district9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district10">
+                                                <label for="district10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district11">
+                                                <label for="district11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district12">
+                                                <label for="district12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Улица
+                                        </span>
+
+                                        <div class="block-fill__list">
+
+                                            <div class="block-fill__list-search">
+                                                <input type="text" placeholder="Введите название">
+                                            </div>
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street1">
+                                                <label for="street1">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street2">
+                                                <label for="street2">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street3">
+                                                <label for="street3">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street4">
+                                                <label for="street4">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street5">
+                                                <label for="street5">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street6">
+                                                <label for="street6">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street7">
+                                                <label for="street7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street8">
+                                                <label for="street8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street9">
+                                                <label for="street9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street10">
+                                                <label for="street10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street11">
+                                                <label for="street11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street12">
+                                                <label for="street12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Тип
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type1">
+                                                <label for="type1">
+                                                    Дача
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type2">
+                                                <label for="type2">
+                                                    Коттедж
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type3">
+                                                <label for="type3">
+                                                    Дом
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type4">
+                                                <label for="type4">
+                                                    Часть дома
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Этажность
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-level">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="level1">
+                                                <label for="level1">
+                                                    1
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="level2">
+                                                <label for="level2">
+                                                    2
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="level3">
+                                                <label for="level3">
+                                                    3
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="level4">
+                                                <label for="level4">
+                                                    4
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Стоимость
+                                        </span>
+
+                                        <div class="block-fill__list block-fill__list-cost">
+                                            стоимость
+
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="стоимость от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Площадь
+                                        </span>
+
+                                        <div class="block-fill__list block-fill__list-area">
+
+
+                                            <p>
+                                                общая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="общая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+                                            <p>
+                                                жилая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="жилая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+
+                                            <p>
+                                                кухня
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="кухня от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="buttons-wrapper">
+
+                                    <a href="#" class="filter-map">
+                                        <svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+                                            <title>Shape</title>
+                                            <desc>Created with Sketch.</desc>
+                                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="главная-первый-экран-иконки-2" transform="translate(-901.000000, -358.000000)" fill="#EF4136" fill-rule="nonzero">
+                                                    <g id="Форма">
+                                                        <g id="CTA" transform="translate(886.000000, 344.000000)">
+                                                            <g id="button-На-карте">
+                                                                <g id="Group-5">
+                                                                    <path d="M24.10377,16.3404255 C23.1296944,14.8358663 21.6268348,14 19.9848216,14 C18.3149776,14 16.8260334,14.8662614 15.8797885,16.3556231 C14.947459,17.8449848 14.7387285,19.7294833 15.3370893,21.3860182 C15.4205815,21.5835866 15.5040737,21.8115502 15.6293119,22.0243161 L19.3307994,28.5896657 C19.469953,28.8480243 19.7204296,29 19.998737,29 C20.2770443,29 20.5136055,28.8480243 20.6666745,28.5896657 L24.3820773,21.9787234 C24.5073156,21.7355623 24.6186386,21.5227964 24.6882154,21.3100304 C25.2587454,19.668693 25.0360995,17.7993921 24.10377,16.3404255 Z M20,22 C18.3442623,22 17,20.6430518 17,19.0081744 C17,17.373297 18.3442623,16 20,16 C21.6557377,16 23,17.3569482 23,18.9918256 C23,20.626703 21.6557377,22 20,22 Z" id="Shape"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        Показать на карте
+                                    </a>
+                                    <button type="submit" class="filter-submit">
+                                        Показать
+                                    </button>
+                                </div>
+                            </form>
+
+
+
+
+                            <form action="/" class="main__filter-block" id="place">
+                                <div class="fill-wrapper">
+
+                                    <div class="block-fill main__filter-select-mob">
+                                        <span>
+                                            Участки
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <p class="select-block select-block-mob" data-select="apartment">
+                                                Квартиры
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="house">
+                                                Дома
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="place">
+                                                Участки
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="commerce">
+                                                Коммерция
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Район
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district1">
+                                                <label for="district1">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district2">
+                                                <label for="district2">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district3">
+                                                <label for="district3">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district4">
+                                                <label for="district4">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district5">
+                                                <label for="district5">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district6">
+                                                <label for="district6">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district7">
+                                                <label for="district7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district8">
+                                                <label for="district8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district9">
+                                                <label for="district9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district10">
+                                                <label for="district10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district11">
+                                                <label for="district11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district12">
+                                                <label for="district12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Улица
+                                        </span>
+
+                                        <div class="block-fill__list">
+
+                                            <div class="block-fill__list-search">
+                                                <input type="text" placeholder="Введите название">
+                                            </div>
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street1">
+                                                <label for="street1">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street2">
+                                                <label for="street2">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street3">
+                                                <label for="street3">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street4">
+                                                <label for="street4">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street5">
+                                                <label for="street5">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street6">
+                                                <label for="street6">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street7">
+                                                <label for="street7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street8">
+                                                <label for="street8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street9">
+                                                <label for="street9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street10">
+                                                <label for="street10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street11">
+                                                <label for="street11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street12">
+                                                <label for="street12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Тип
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type5">
+                                                <label for="type5">
+                                                    Дача
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type6">
+                                                <label for="type6">
+                                                    Коттедж
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type7">
+                                                <label for="type7">
+                                                    Дом
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type8">
+                                                <label for="type8">
+                                                    Часть дома
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Стоимость
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-cost">
+                                            стоимость
+
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="стоимость от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Площадь
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-area">
+
+
+                                            <p>
+                                                общая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="общая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+                                            <p>
+                                                жилая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="жилая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+
+                                            <p>
+                                                кухня
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="кухня от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="buttons-wrapper">
+
+                                    <a href="#" class="filter-map">
+                                        <svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+                                            <title>Shape</title>
+                                            <desc>Created with Sketch.</desc>
+                                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="главная-первый-экран-иконки-2" transform="translate(-901.000000, -358.000000)" fill="#EF4136" fill-rule="nonzero">
+                                                    <g id="Форма">
+                                                        <g id="CTA" transform="translate(886.000000, 344.000000)">
+                                                            <g id="button-На-карте">
+                                                                <g id="Group-5">
+                                                                    <path d="M24.10377,16.3404255 C23.1296944,14.8358663 21.6268348,14 19.9848216,14 C18.3149776,14 16.8260334,14.8662614 15.8797885,16.3556231 C14.947459,17.8449848 14.7387285,19.7294833 15.3370893,21.3860182 C15.4205815,21.5835866 15.5040737,21.8115502 15.6293119,22.0243161 L19.3307994,28.5896657 C19.469953,28.8480243 19.7204296,29 19.998737,29 C20.2770443,29 20.5136055,28.8480243 20.6666745,28.5896657 L24.3820773,21.9787234 C24.5073156,21.7355623 24.6186386,21.5227964 24.6882154,21.3100304 C25.2587454,19.668693 25.0360995,17.7993921 24.10377,16.3404255 Z M20,22 C18.3442623,22 17,20.6430518 17,19.0081744 C17,17.373297 18.3442623,16 20,16 C21.6557377,16 23,17.3569482 23,18.9918256 C23,20.626703 21.6557377,22 20,22 Z" id="Shape"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        Показать на карте
+                                    </a>
+
+                                    <button type="submit" class="filter-submit">
+                                        Показать
+                                    </button>
+                                </div>
+                            </form>
+
+
+
+
+                            <form action="/" class="main__filter-block" id="commerce">
+                                <div class="fill-wrapper">
+
+                                    <div class="block-fill main__filter-select-mob">
+                                        <span>
+                                            Коммерция
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <p class="select-block select-block-mob" data-select="apartment">
+                                                Квартиры
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="house">
+                                                Дома
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="place">
+                                                Участки
+                                            </p>
+
+                                            <p class="select-block select-block-mob" data-select="commerce">
+                                                Коммерция
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Район
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district1">
+                                                <label for="district1">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district2">
+                                                <label for="district2">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district3">
+                                                <label for="district3">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district4">
+                                                <label for="district4">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district5">
+                                                <label for="district5">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district6">
+                                                <label for="district6">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district7">
+                                                <label for="district7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district8">
+                                                <label for="district8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district9">
+                                                <label for="district9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district10">
+                                                <label for="district10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district11">
+                                                <label for="district11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="district12">
+                                                <label for="district12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Улица
+                                        </span>
+
+                                        <div class="block-fill__list">
+
+                                            <div class="block-fill__list-search">
+                                                <input type="text" placeholder="Введите название">
+                                            </div>
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street1">
+                                                <label for="street1">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street2">
+                                                <label for="street2">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street3">
+                                                <label for="street3">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street4">
+                                                <label for="street4">
+                                                    ул. Пушкина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street5">
+                                                <label for="street5">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street6">
+                                                <label for="street6">
+                                                    ул. Ленина
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street7">
+                                                <label for="street7">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street8">
+                                                <label for="street8">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street9">
+                                                <label for="street9">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street10">
+                                                <label for="street10">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street11">
+                                                <label for="street11">
+                                                    Кировский
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="street12">
+                                                <label for="street12">
+                                                    Ленинский
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Тип
+                                        </span>
+
+                                        <div class="block-fill__list">
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type1">
+                                                <label for="type1">
+                                                    Дача
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type2">
+                                                <label for="type2">
+                                                    Коттедж
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type3">
+                                                <label for="type3">
+                                                    Дом
+                                                </label>
+                                            </div>
+
+                                            <div class="block-fill__list-checkbox">
+                                                <input type="checkbox" id="type4">
+                                                <label for="type4">
+                                                    Часть дома
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="block-fill">
+                                        <span>
+                                            Стоимость
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-cost">
+                                            стоимость
+
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="стоимость от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="block-fill">
+                                        <span>
+                                            Площадь
+                                        </span>
+
+
+                                        <div class="block-fill__list block-fill__list-area">
+
+
+                                            <p>
+                                                общая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="общая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+                                            <p>
+                                                жилая
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="жилая от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+
+
+                                            <p>
+                                                кухня
+                                            </p>
+                                            <div class="block-fill__list-range">
+                                                <input type="text" placeholder="кухня от">
+
+                                                <input type="text" placeholder="до">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="buttons-wrapper">
+
+                                    <a href="#" class="filter-map">
+                                        <svg width="10px" height="15px" viewBox="0 0 10 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                            <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+                                            <title>Shape</title>
+                                            <desc>Created with Sketch.</desc>
+                                            <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                                <g id="главная-первый-экран-иконки-2" transform="translate(-901.000000, -358.000000)" fill="#EF4136" fill-rule="nonzero">
+                                                    <g id="Форма">
+                                                        <g id="CTA" transform="translate(886.000000, 344.000000)">
+                                                            <g id="button-На-карте">
+                                                                <g id="Group-5">
+                                                                    <path d="M24.10377,16.3404255 C23.1296944,14.8358663 21.6268348,14 19.9848216,14 C18.3149776,14 16.8260334,14.8662614 15.8797885,16.3556231 C14.947459,17.8449848 14.7387285,19.7294833 15.3370893,21.3860182 C15.4205815,21.5835866 15.5040737,21.8115502 15.6293119,22.0243161 L19.3307994,28.5896657 C19.469953,28.8480243 19.7204296,29 19.998737,29 C20.2770443,29 20.5136055,28.8480243 20.6666745,28.5896657 L24.3820773,21.9787234 C24.5073156,21.7355623 24.6186386,21.5227964 24.6882154,21.3100304 C25.2587454,19.668693 25.0360995,17.7993921 24.10377,16.3404255 Z M20,22 C18.3442623,22 17,20.6430518 17,19.0081744 C17,17.373297 18.3442623,16 20,16 C21.6557377,16 23,17.3569482 23,18.9918256 C23,20.626703 21.6557377,22 20,22 Z" id="Shape"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </svg>
+                                        Показать на карте
+                                    </a>
+
+                                    <button type="submit" class="filter-submit">
+                                        Показать
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+</html>
