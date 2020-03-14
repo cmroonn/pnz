@@ -78,11 +78,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const closeFilter = document.querySelector('.closeFilter');
         const clearFilter = document.querySelector('.clearFilter');
         const selectedItems = document.querySelectorAll('.block-fill__list-checkbox input[type="checkbox"]');
+        const showMap = document.querySelector('.show-map-mobile');
+        const map = document.querySelector('.search-map-wrapper');
 
 
         openFilter.addEventListener('click', e => {
            e.preventDefault();
-           filter.classList.add('active');
+           filter.classList.toggle('active');
         });
 
         closeFilter.addEventListener('click', e => {
@@ -97,6 +99,11 @@ document.addEventListener('DOMContentLoaded', () => {
                elem.checked = false;
 
            });
+        });
+
+        showMap.addEventListener('click', e => {
+           e.preventDefault();
+           map.classList.toggle('active');
         });
 
     }
