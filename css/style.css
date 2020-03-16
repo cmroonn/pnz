@@ -19,6 +19,7 @@ input, button{
 }
 .main {
     background: url(../img/index-image.jpg) no-repeat;
+    background-size: cover;
 }
 
 .main__wrapper{
