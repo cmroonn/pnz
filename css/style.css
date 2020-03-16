@@ -583,6 +583,7 @@ input, button{
 
 .search-map img {
     width: 100%;
+    height: 100vh;
 }
 
 .item-info__compare,
@@ -838,12 +839,18 @@ input, button{
      }
 
      .search-map-wrapper {
-         display: none;
+        display: none;
+        position: fixed;
+        top: 43px;
+        height: 100vh;
+        padding: 0;
+        z-index: 20;
      }
 
      .search-map-wrapper.active {
          display: block;
      }
+
 }
 
 
@@ -870,14 +877,6 @@ input, button{
 
     .item-info__bottom {
         margin-top: 20px;
-    }
-
-    .search-map-wrapper {
-        position: fixed;
-        top: 43px;
-        height: 100vh;
-        padding: 0;
-        z-index: 20;
     }
 
 }
