@@ -467,7 +467,7 @@ input, button{
 }
 
 .item-gallery {
-    min-height: 230px;
+    height: 230px;
     height: 100%;
     overflow: hidden;
     width: 230px;
